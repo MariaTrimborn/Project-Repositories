@@ -1,0 +1,39 @@
+h1  {
+    color: pink;
+    text-align: center;
+    background-color: honeydew;
+    background-position: center;
+    
+}
+
+body  {
+    color: cornflowerblue;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+    
+}
+p   {
+    color: cornflowerblue;
+    text-align: center;
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-top: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+
+}
+
+
